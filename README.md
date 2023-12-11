@@ -1,6 +1,6 @@
 # Courses-Portfolio
 
-A Single Page Application (SPA) of a portfolio of courses, developed based on Gulp.
+A generic Single Page Application (SPA) of a portfolio of courses, developed based on Gulp.
 
 Some technologies used:
 
@@ -9,7 +9,7 @@ Some technologies used:
 * HTML;
 * CSS;
 * Node;
-* SCSS.
+* SCSS/SASS.
 
 ## Running the app
 
