@@ -9,7 +9,7 @@ Some technologies used:
 * HTML;
 * CSS;
 * Node;
-* SASS.
+* SCSS.
 
 ## Running the app
 
