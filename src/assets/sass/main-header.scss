@@ -1,4 +1,4 @@
-header.cabecalho {
+header.main-header {
     display: flex;
     align-items: center;
     background-color: #FFF;
@@ -6,7 +6,7 @@ header.cabecalho {
     box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.06);
 }
 
-header.cabecalho input {
+header.main-header input {
     flex-grow: 10;
     margin-right: 15px;
     border-radius: 7px;
@@ -17,17 +17,17 @@ header.cabecalho input {
 }
 
 @media(max-width: $largura-sm-max) {
-    header.cabecalho {
+    header.main-header {
         justify-content: flex-end;
     }
 
-    header.cabecalho input  {
+    header.main-header input  {
         display: none;
     }
 }
 
 @media(max-width: $largura-xs-max) {
-    header.cabecalho {
+    header.main-header {
         justify-content: center;
     }
 }

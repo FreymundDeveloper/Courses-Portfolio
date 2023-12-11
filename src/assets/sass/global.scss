@@ -13,11 +13,11 @@ body {
     margin: 0px;
     display: grid;
     grid-template-columns: $largura-barra-lateral 1fr;
-    grid-template-rows: $altura-cabecalho 1fr $altura-rodape;
+    grid-template-rows: $altura-main-header 1fr $altura-baseboard;
     grid-template-areas: 
-        "logo cabecalho"
-        "menu conteudo"
-        "menu rodape";
+        "logo main-header"
+        "menu content"
+        "menu baseboard";
     height: 100vh;
     background-color: #F5F5F5;
 }
@@ -26,43 +26,43 @@ aside.logo {
     grid-area: logo;
 }
 
-header.cabecalho {
-    grid-area: cabecalho;
+header.main-header {
+    grid-area: main-header;
 }
 
 aside.menu-area {
     grid-area: menu;
 }
 
-main.conteudo {
-    grid-area: conteudo;
+main.content {
+    grid-area: content;
 }
 
-footer.rodape {
-    grid-area: rodape;
+footer.baseboard {
+    grid-area: baseboard;
 }
 
 @media(max-width: $largura-sm-max) {
     body {
-        grid-template-rows: $altura-cabecalho $altura-menu-top 1fr $altura-rodape;
+        grid-template-rows: $altura-main-header $altura-menu-top 1fr $altura-baseboard;
         grid-template-columns: $largura-barra-lateral 1fr;
         grid-template-areas: 
-            "logo cabecalho"
+            "logo main-header"
             "menu menu"
-            "conteudo conteudo"
-            "rodape rodape";
+            "content content"
+            "baseboard baseboard";
     }
 }
 
 @media(max-width: $largura-xs-max) {
     body {
-        grid-template-rows: $altura-logo $altura-cabecalho $altura-menu-top 1fr $altura-rodape;
+        grid-template-rows: $altura-logo $altura-main-header $altura-menu-top 1fr $altura-baseboard;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "logo"
-            "cabecalho"
+            "main-header"
             "menu"
-            "conteudo"
-            "rodape";
+            "content"
+            "baseboard";
     }
 }
