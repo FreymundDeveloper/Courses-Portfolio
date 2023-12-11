@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: $fonte-principal;
+    font-family: $main-font;
 }
 
 html {
@@ -12,10 +12,10 @@ html {
 body {
     margin: 0px;
     display: grid;
-    grid-template-columns: $largura-barra-lateral 1fr;
-    grid-template-rows: $altura-main-header 1fr $altura-baseboard;
+    grid-template-columns: $sidebar-width 1fr;
+    grid-template-rows: $heigh-mainHeader 1fr $heigh-baseboard;
     grid-template-areas: 
-        "logo main-header"
+        "logo mainHeader"
         "menu content"
         "menu baseboard";
     height: 100vh;
@@ -26,8 +26,8 @@ aside.logo {
     grid-area: logo;
 }
 
-header.main-header {
-    grid-area: main-header;
+header.mainHeader {
+    grid-area: mainHeader;
 }
 
 aside.menu-area {
@@ -42,25 +42,25 @@ footer.baseboard {
     grid-area: baseboard;
 }
 
-@media(max-width: $largura-sm-max) {
+@media(max-width: $width-sm-max) {
     body {
-        grid-template-rows: $altura-main-header $altura-menu-top 1fr $altura-baseboard;
-        grid-template-columns: $largura-barra-lateral 1fr;
+        grid-template-rows: $heigh-mainHeader $heigh-menu-top 1fr $heigh-baseboard;
+        grid-template-columns: $sidebar-width 1fr;
         grid-template-areas: 
-            "logo main-header"
+            "logo mainHeader"
             "menu menu"
             "content content"
             "baseboard baseboard";
     }
 }
 
-@media(max-width: $largura-xs-max) {
+@media(max-width: $width-xs-max) {
     body {
-        grid-template-rows: $altura-logo $altura-main-header $altura-menu-top 1fr $altura-baseboard;
+        grid-template-rows: $heigh-logo $heigh-mainHeader $heigh-menu-top 1fr $heigh-baseboard;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "logo"
-            "main-header"
+            "mainHeader"
             "menu"
             "content"
             "baseboard";

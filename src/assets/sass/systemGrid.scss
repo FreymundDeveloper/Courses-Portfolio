@@ -5,7 +5,7 @@
     margin-left: -15px;
 }
 
-@media(min-width: $largura-xs-min) {
+@media(min-width: $width-xs-min) {
     .xs-1 { flex: 0 0 8.33%; max-width: 8.33%; }
     .xs-2 { flex: 0 0 16.66%; max-width: 16.66%; }
     .xs-3 { flex: 0 0 25%; max-width: 25%; }
@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-width: $largura-sm-min) {
+@media (min-width: $width-sm-min) {
     .sm-1 { flex: 0 0 8.33%; max-width: 8.33%; }
     .sm-2 { flex: 0 0 16.66%; max-width: 16.66%; }
     .sm-3 { flex: 0 0 25%; max-width: 25%; }
@@ -49,7 +49,7 @@
     }
 }
 
-@media (min-width: $largura-md-min) {
+@media (min-width: $width-md-min) {
     .md-1 { flex: 0 0 8.33%; max-width: 8.33%; }
     .md-2 { flex: 0 0 16.66%; max-width: 16.66%; }
     .md-3 { flex: 0 0 25%; max-width: 25%; }
@@ -71,7 +71,7 @@
     }
 }
 
-@media (min-width: $largura-lg-min) {
+@media (min-width: $width-lg-min) {
     .lg-1 { flex: 0 0 8.33%; max-width: 8.33%; }
     .lg-2 { flex: 0 0 16.66%; max-width: 16.66%; }
     .lg-3 { flex: 0 0 25%; max-width: 25%; }
@@ -93,7 +93,7 @@
     }
 }
 
-@media (min-width: $largura-xl-min) {
+@media (min-width: $width-xl-min) {
     .xl-1 { flex: 0 0 8.33%; max-width: 8.33%; }
     .xl-2 { flex: 0 0 16.66%; max-width: 16.66%; }
     .xl-3 { flex: 0 0 25%; max-width: 25%; }

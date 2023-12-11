@@ -11,7 +11,7 @@ aside.logo img {
     width: 100%;
 }
 
-@media(max-width: $largura-sm-max) {
+@media(max-width: $width-sm-max) {
     aside.logo {
         display: flex;
         justify-content: center;
@@ -19,6 +19,6 @@ aside.logo img {
 
     aside.logo img {
         padding: 0px 15px;
-        width: $largura-barra-lateral;
+        width: $sidebar-width;
     }
 }
