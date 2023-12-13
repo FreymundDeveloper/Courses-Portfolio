@@ -4,7 +4,7 @@ A generic Single Page Application (SPA) of a portfolio of courses, developed bas
 
 Some technologies used:
 
-* Gulp;
+* Gulp(4.x);
 * JavaScript;
 * HTML;
 * CSS;
@@ -21,3 +21,5 @@ $ npm i
 # Running
 $ gulp
 ```
+
+OBS: Content was developed for educational purposes.
